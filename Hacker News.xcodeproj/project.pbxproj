@@ -14,7 +14,7 @@
 		0F79E75D1B6A4C570003736E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F79E75C1B6A4C570003736E /* Accounts.framework */; };
 		0F79E7651B6B59E10003736E /* CustomLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79E7641B6B59E10003736E /* CustomLogInViewController.swift */; };
 		0F79E7671B6B5B840003736E /* CustomSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79E7661B6B5B840003736E /* CustomSignUpViewController.swift */; };
-		0F79E76B1B6B7B7B0003736E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F79E76A1B6B7B7B0003736E /* logo.png */; };
+		0F79E78E1B6BC70D0003736E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F79E78D1B6BC70D0003736E /* logo.png */; };
 		81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814A1A49DA1800E65899 /* AppDelegate.swift */; };
 		81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814C1A49DA1800E65899 /* ViewController.swift */; };
 		81BA81501A49DA1800E65899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BA814E1A49DA1800E65899 /* Main.storyboard */; };
@@ -38,7 +38,7 @@
 		0F79E75C1B6A4C570003736E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		0F79E7641B6B59E10003736E /* CustomLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLogInViewController.swift; sourceTree = "<group>"; };
 		0F79E7661B6B5B840003736E /* CustomSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSignUpViewController.swift; sourceTree = "<group>"; };
-		0F79E76A1B6B7B7B0003736E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../logo.png; sourceTree = "<group>"; };
+		0F79E78D1B6BC70D0003736E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		81BA81451A49DA1800E65899 /* Hacker News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BA81491A49DA1800E65899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81BA814A1A49DA1800E65899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		81BA81481A49DA1800E65899 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0F79E76A1B6B7B7B0003736E /* logo.png */,
+				0F79E78D1B6BC70D0003736E /* logo.png */,
 				81BA81491A49DA1800E65899 /* Info.plist */,
 				81BA81821A49E27F00E65899 /* ParseStarterProject-Bridging-Header.h */,
 			);
@@ -208,7 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F79E76B1B6B7B7B0003736E /* logo.png in Resources */,
+				0F79E78E1B6BC70D0003736E /* logo.png in Resources */,
 				81BA81501A49DA1800E65899 /* Main.storyboard in Resources */,
 				81BA81521A49DA1800E65899 /* Images.xcassets in Resources */,
 			);
