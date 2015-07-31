@@ -57,24 +57,6 @@ class AddNewsViewController: UIViewController {
             push.sendPushInBackground()
             
             self.performSegueWithIdentifier("BackToFeed", sender: self)
-                
-                /*{
-                
-                (success: Bool, perror: NSError?) -> Void in
-                
-                if success == false {
-                    
-                    self.displayAlert("Could Not Post News", error: "ERROR")
-                    
-                }
-                else
-                {
-                    //self.displayAlert("Congrats!", error: "Your news posted Successfully")
-                    
-                    self.performSegueWithIdentifier("BackToFeed", sender: self)
-                    
-                }
-            }*/
         }
         
         

@@ -36,52 +36,11 @@ class NewsFeedTableViewController: UITableViewController {
         
         PFUser.logOut()
         
-        /*var currentUser = PFUser.currentUser()
-        if currentUser == nil {
-            
-             displayAlert("Logout!", error: "User Successfully loged out")
-        }
-        else {
-             displayAlert("Error!", error: "Error logging out ")
-        }*/
-        
-        
         self.performSegueWithIdentifier("logout", sender: self)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-    
-        /*var query = PFQuery(className: "News")
-        query.cachePolicy = .CacheThenNetwork
-        query.findObjectsInBackgroundWithBlock {
-            (objects: [AnyObject]?, error: NSError?) -> Void in
-            
-            if error == nil {
-                println("Succesfully Retrieved \(objects!.count) News")
-            
-            
-                for object in objects! {
-                
-                    self.titles.append(object["Title"] as! String)
-                    self.newstexts.append(object["Description"] as! String)
-                    self.usernames.append(object["User"] as! String)
-                    
-                    self.tableView.reloadData()
-                
-                }
-            }
-            else {
-                println(error)
-            }
-            
-        }*/
         
         loadResults()
     
